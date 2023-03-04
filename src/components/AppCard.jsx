@@ -3,7 +3,7 @@ import {Button, Card} from "react-bootstrap";
 
 function AppCard({img, title, body}) {
   return (
-    <Card>
+    <Card className="h-100">
       <Card.Img variant="top" src={img} />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
